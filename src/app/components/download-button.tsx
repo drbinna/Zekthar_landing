@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 // Latest-release URL pattern from GitHub.
 // `latest/download/<filename>` always resolves to the most recent release with that asset.
-const RELEASES_BASE = "https://github.com/drbinna/Void/releases/latest/download";
-const RELEASES_PAGE = "https://github.com/drbinna/Void/releases/latest";
-const VERSION = "1.0.4"; // bump when you ship
+const RELEASES_BASE = "https://github.com/drbinna/Zekhtar-s-App/releases/latest/download";
+const RELEASES_PAGE = "https://github.com/drbinna/Zekhtar-s-App/releases/latest";
+const VERSION = "1.0.8"; // bump when you ship
 
 const DMG = {
   arm64: `${RELEASES_BASE}/Zekthar-${VERSION}-arm64.dmg`,
