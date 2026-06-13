@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 // `latest/download/<filename>` always resolves to the most recent release with that asset.
 const RELEASES_BASE = "https://github.com/drbinna/Zekhtar-s-App/releases/latest/download";
 const RELEASES_PAGE = "https://github.com/drbinna/Zekhtar-s-App/releases/latest";
-const VERSION = "1.0.8"; // bump when you ship
+const VERSION = "1.1.0"; // bump when you ship
 
 const DMG = {
   arm64: `${RELEASES_BASE}/Zekthar-${VERSION}-arm64.dmg`,
